@@ -1,14 +1,14 @@
 //
-//  Person.m
+//  GetterSetterPropertija.m
 //  Objective C - Fundamentals
 //
 //  Created by Vuk Knežević on 4/6/18.
 //  Copyright © 2018 Vuk Knežević. All rights reserved.
 //
 
-#import "Person.h"
+#import "GetterSetterPropertija.h"
 
-@implementation Person
+@implementation GetterSetterPropertija
 
 // ova funkcija se autoamtski generise i to je SETTER
 -(void)setRadniStaz:(long)radniStaz{

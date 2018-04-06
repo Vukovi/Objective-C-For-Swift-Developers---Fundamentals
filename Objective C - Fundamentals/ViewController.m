@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
+#import "GetterSetterPropertija.h"
 
 @interface ViewController ()
 
@@ -114,7 +114,7 @@
 
 - (void)koriscenjePersonKlase {
     
-    Person *vuk = [[Person alloc] init];
+    GetterSetterPropertija *vuk = [[GetterSetterPropertija alloc] init];
     vuk.firstName = @"Vuk";
     vuk.lastName = @"Knezevic";
     

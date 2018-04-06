@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  GetterSetterPropertija.h
 //  Objective C - Fundamentals
 //
 //  Created by Vuk Knežević on 4/6/18.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject {
+@interface GetterSetterPropertija : NSObject {
     BOOL zaposlen;
 }
 
