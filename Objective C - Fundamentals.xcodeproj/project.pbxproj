@@ -13,6 +13,7 @@
 		BF99054E207785DB0051DD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF99054D207785DB0051DD64 /* Assets.xcassets */; };
 		BF990551207785DB0051DD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF99054F207785DB0051DD64 /* LaunchScreen.storyboard */; };
 		BF990554207785DB0051DD64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF990553207785DB0051DD64 /* main.m */; };
+		BF9905602077E4860051DD64 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99055F2077E4860051DD64 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BF990550207785DB0051DD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF990552207785DB0051DD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF990553207785DB0051DD64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF99055E2077E4860051DD64 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BF99055F2077E4860051DD64 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BF990545207785DB0051DD64 /* AppDelegate.m */,
 				BF990547207785DB0051DD64 /* ViewController.h */,
 				BF990548207785DB0051DD64 /* ViewController.m */,
+				BF99055E2077E4860051DD64 /* Person.h */,
+				BF99055F2077E4860051DD64 /* Person.m */,
 				BF99054A207785DB0051DD64 /* Main.storyboard */,
 				BF99054D207785DB0051DD64 /* Assets.xcassets */,
 				BF99054F207785DB0051DD64 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				BF990549207785DB0051DD64 /* ViewController.m in Sources */,
 				BF990554207785DB0051DD64 /* main.m in Sources */,
+				BF9905602077E4860051DD64 /* Person.m in Sources */,
 				BF990546207785DB0051DD64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
 				INFOPLIST_FILE = "Objective C - Fundamentals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Objective-C---Fundamentals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +300,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
 				INFOPLIST_FILE = "Objective C - Fundamentals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Objective-C---Fundamentals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
