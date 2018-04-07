@@ -14,6 +14,13 @@
 		BF990551207785DB0051DD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF99054F207785DB0051DD64 /* LaunchScreen.storyboard */; };
 		BF990554207785DB0051DD64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF990553207785DB0051DD64 /* main.m */; };
 		BF9905602077E4860051DD64 /* GetterSetterPropertija.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99055F2077E4860051DD64 /* GetterSetterPropertija.m */; };
+		BF990563207899120051DD64 /* Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = BF990562207899120051DD64 /* Methods.m */; };
+		BF9905692078A0C20051DD64 /* MethodsPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905682078A0C20051DD64 /* MethodsPerson.m */; };
+		BF99056C2078A5730051DD64 /* Arrays.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99056B2078A5730051DD64 /* Arrays.m */; };
+		BF99056F2078ADCF0051DD64 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99056E2078ADCF0051DD64 /* Dictionary.m */; };
+		BF9905722078B0CF0051DD64 /* FastEnumeration and Loops.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905712078B0CF0051DD64 /* FastEnumeration and Loops.m */; };
+		BF9905752078B9970051DD64 /* Vozilo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905742078B9970051DD64 /* Vozilo.m */; };
+		BF9905782078C1640051DD64 /* VoziloHonda.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905772078C1640051DD64 /* VoziloHonda.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,20 @@
 		BF990553207785DB0051DD64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF99055E2077E4860051DD64 /* GetterSetterPropertija.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetterSetterPropertija.h; sourceTree = "<group>"; };
 		BF99055F2077E4860051DD64 /* GetterSetterPropertija.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetterSetterPropertija.m; sourceTree = "<group>"; };
+		BF990561207899120051DD64 /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
+		BF990562207899120051DD64 /* Methods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Methods.m; sourceTree = "<group>"; };
+		BF9905672078A0C20051DD64 /* MethodsPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodsPerson.h; sourceTree = "<group>"; };
+		BF9905682078A0C20051DD64 /* MethodsPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodsPerson.m; sourceTree = "<group>"; };
+		BF99056A2078A5730051DD64 /* Arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
+		BF99056B2078A5730051DD64 /* Arrays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arrays.m; sourceTree = "<group>"; };
+		BF99056D2078ADCF0051DD64 /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		BF99056E2078ADCF0051DD64 /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
+		BF9905702078B0CF0051DD64 /* FastEnumeration and Loops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FastEnumeration and Loops.h"; sourceTree = "<group>"; };
+		BF9905712078B0CF0051DD64 /* FastEnumeration and Loops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FastEnumeration and Loops.m"; sourceTree = "<group>"; };
+		BF9905732078B9970051DD64 /* Vozilo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vozilo.h; sourceTree = "<group>"; };
+		BF9905742078B9970051DD64 /* Vozilo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vozilo.m; sourceTree = "<group>"; };
+		BF9905762078C1640051DD64 /* VoziloHonda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoziloHonda.h; sourceTree = "<group>"; };
+		BF9905772078C1640051DD64 /* VoziloHonda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoziloHonda.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +88,20 @@
 				BF990548207785DB0051DD64 /* ViewController.m */,
 				BF99055E2077E4860051DD64 /* GetterSetterPropertija.h */,
 				BF99055F2077E4860051DD64 /* GetterSetterPropertija.m */,
+				BF990561207899120051DD64 /* Methods.h */,
+				BF990562207899120051DD64 /* Methods.m */,
+				BF9905672078A0C20051DD64 /* MethodsPerson.h */,
+				BF9905682078A0C20051DD64 /* MethodsPerson.m */,
+				BF99056A2078A5730051DD64 /* Arrays.h */,
+				BF99056B2078A5730051DD64 /* Arrays.m */,
+				BF99056D2078ADCF0051DD64 /* Dictionary.h */,
+				BF99056E2078ADCF0051DD64 /* Dictionary.m */,
+				BF9905702078B0CF0051DD64 /* FastEnumeration and Loops.h */,
+				BF9905712078B0CF0051DD64 /* FastEnumeration and Loops.m */,
+				BF9905732078B9970051DD64 /* Vozilo.h */,
+				BF9905742078B9970051DD64 /* Vozilo.m */,
+				BF9905762078C1640051DD64 /* VoziloHonda.h */,
+				BF9905772078C1640051DD64 /* VoziloHonda.m */,
 				BF99054A207785DB0051DD64 /* Main.storyboard */,
 				BF99054D207785DB0051DD64 /* Assets.xcassets */,
 				BF99054F207785DB0051DD64 /* LaunchScreen.storyboard */,
@@ -147,10 +182,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF990563207899120051DD64 /* Methods.m in Sources */,
 				BF990549207785DB0051DD64 /* ViewController.m in Sources */,
+				BF9905752078B9970051DD64 /* Vozilo.m in Sources */,
 				BF990554207785DB0051DD64 /* main.m in Sources */,
+				BF9905782078C1640051DD64 /* VoziloHonda.m in Sources */,
+				BF99056C2078A5730051DD64 /* Arrays.m in Sources */,
 				BF9905602077E4860051DD64 /* GetterSetterPropertija.m in Sources */,
+				BF99056F2078ADCF0051DD64 /* Dictionary.m in Sources */,
+				BF9905722078B0CF0051DD64 /* FastEnumeration and Loops.m in Sources */,
 				BF990546207785DB0051DD64 /* AppDelegate.m in Sources */,
+				BF9905692078A0C20051DD64 /* MethodsPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

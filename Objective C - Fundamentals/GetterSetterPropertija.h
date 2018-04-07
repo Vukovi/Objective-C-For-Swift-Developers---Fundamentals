@@ -14,7 +14,7 @@
 
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;
-@property (nonatomic) long radniStaz; // ne moze strong
+@property (nonatomic) long radniStaz; // ne moze strong jer je strong vezano za objekte, a long je value type
 @property (nonatomic, strong) NSString *zanimanje;
 
 @end

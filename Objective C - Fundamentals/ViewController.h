@@ -35,6 +35,7 @@
 - (IBAction)globalAlert:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *globalAlertBtn;
 
+@property (nonatomic) BOOL isItDone; // ne moze strong jer je strong vezano za objekte, a BOOL je value type
 
 @end
 

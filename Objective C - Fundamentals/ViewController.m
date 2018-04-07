@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GetterSetterPropertija.h"
+#import "VoziloHonda.h"
 
 @interface ViewController ()
 
@@ -101,6 +102,9 @@
     for (number = 20; number > 0; number -= 1) {
         NSLog(@"%i", number); // 20 19 18 ... 1
     }
+    
+    VoziloHonda *honda = [[VoziloHonda alloc] init];
+    
 }
 
 - (IBAction)globalAlert:(id)sender {
@@ -112,7 +116,7 @@
 }
 
 
-- (void)koriscenjePersonKlase {
+- (void)koriscenjeGetteraISettera {
     
     GetterSetterPropertija *vuk = [[GetterSetterPropertija alloc] init];
     vuk.firstName = @"Vuk";
