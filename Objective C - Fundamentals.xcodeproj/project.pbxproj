@@ -21,6 +21,8 @@
 		BF9905722078B0CF0051DD64 /* FastEnumeration and Loops.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905712078B0CF0051DD64 /* FastEnumeration and Loops.m */; };
 		BF9905752078B9970051DD64 /* Vozilo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905742078B9970051DD64 /* Vozilo.m */; };
 		BF9905782078C1640051DD64 /* VoziloHonda.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9905772078C1640051DD64 /* VoziloHonda.m */; };
+		BFC13B0A207A18CA00CF617C /* Structures.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC13B09207A18CA00CF617C /* Structures.m */; };
+		BFC13B0D207A5AC900CF617C /* Preporocessors.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC13B0C207A5AC900CF617C /* Preporocessors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,10 @@
 		BF9905742078B9970051DD64 /* Vozilo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vozilo.m; sourceTree = "<group>"; };
 		BF9905762078C1640051DD64 /* VoziloHonda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoziloHonda.h; sourceTree = "<group>"; };
 		BF9905772078C1640051DD64 /* VoziloHonda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoziloHonda.m; sourceTree = "<group>"; };
+		BFC13B08207A18CA00CF617C /* Structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		BFC13B09207A18CA00CF617C /* Structures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Structures.m; sourceTree = "<group>"; };
+		BFC13B0B207A5AC900CF617C /* Preporocessors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Preporocessors.h; sourceTree = "<group>"; };
+		BFC13B0C207A5AC900CF617C /* Preporocessors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Preporocessors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 				BF9905742078B9970051DD64 /* Vozilo.m */,
 				BF9905762078C1640051DD64 /* VoziloHonda.h */,
 				BF9905772078C1640051DD64 /* VoziloHonda.m */,
+				BFC13B08207A18CA00CF617C /* Structures.h */,
+				BFC13B09207A18CA00CF617C /* Structures.m */,
+				BFC13B0B207A5AC900CF617C /* Preporocessors.h */,
+				BFC13B0C207A5AC900CF617C /* Preporocessors.m */,
 				BF99054A207785DB0051DD64 /* Main.storyboard */,
 				BF99054D207785DB0051DD64 /* Assets.xcassets */,
 				BF99054F207785DB0051DD64 /* LaunchScreen.storyboard */,
@@ -187,8 +197,10 @@
 				BF9905752078B9970051DD64 /* Vozilo.m in Sources */,
 				BF990554207785DB0051DD64 /* main.m in Sources */,
 				BF9905782078C1640051DD64 /* VoziloHonda.m in Sources */,
+				BFC13B0D207A5AC900CF617C /* Preporocessors.m in Sources */,
 				BF99056C2078A5730051DD64 /* Arrays.m in Sources */,
 				BF9905602077E4860051DD64 /* GetterSetterPropertija.m in Sources */,
+				BFC13B0A207A18CA00CF617C /* Structures.m in Sources */,
 				BF99056F2078ADCF0051DD64 /* Dictionary.m in Sources */,
 				BF9905722078B0CF0051DD64 /* FastEnumeration and Loops.m in Sources */,
 				BF990546207785DB0051DD64 /* AppDelegate.m in Sources */,
